@@ -32,7 +32,7 @@ export default function UploadPage() {
     formData.append("file", selectedFile);
 
     try {
-      const response = await fetch("https://airy-youthfulness-production-0d57.up.railway.app/upload", {
+      const response = await fetch("https://airy-youthfulness-production-2c40.up.railway.app", {
         method: "POST",
         body: formData,
       });
